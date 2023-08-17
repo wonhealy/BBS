@@ -1,0 +1,20 @@
+@charset "UTF-8";
+body {
+	text-align:center;
+}
+table {
+	width:100%;
+	margin-left:auto; margin-right:auto;
+}
+table#tblBoard {
+	border-collapse:collapse;
+
+}
+	table#tblBoard th{
+	background-color:black; color:yellow;
+	border:1px solid yellow;
+}
+table#tblBoard td{
+	border:1px solid black;
+	cursor:pointer;
+}
